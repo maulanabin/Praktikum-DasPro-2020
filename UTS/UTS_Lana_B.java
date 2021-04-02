@@ -40,11 +40,11 @@ public class UTS_Lana_B {
 
         if ((pilihanPakaian1.equalsIgnoreCase("kemeja")) || (pilihanPakaian1.equalsIgnoreCase("kaos")) || (pilihanPakaian2.equalsIgnoreCase("kemeja")) || (pilihanPakaian2.equalsIgnoreCase("kaos"))) {
             System.out.println("Anda mendapatkan masker gratis");
-            if (total >= 350000);
+            if (total >= 350000) {
                 total = total - 50000;
-        } else {
-            if (pilihanPakaian1.equalsIgnoreCase("kebaya") || pilihanPakaian2.equalsIgnoreCase("kebaya")) {
-                System.out.println("Anda mendapatkan sarung tangan gratis");
+            } else {
+                if (pilihanPakaian1.equalsIgnoreCase("kebaya") || pilihanPakaian2.equalsIgnoreCase("kebaya")) {
+                    System.out.println("Anda mendapatkan sarung tangan gratis");
             }
         }
         System.out.printf("Total belanjaan yang harus dibayar adalah Rp %.2f", total);
